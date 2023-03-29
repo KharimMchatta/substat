@@ -24,7 +24,8 @@ echo ""
 
 # Ask the user for the file that contains the list of subdomains
 read -p "Please enter the name of the file containing the list of subdomains:" subdomains_file
-
+echo ''
+echo ''
 # Check if the file exists
 if [ ! -f $subdomains_file ]; then
   echo "Error: $subdomains_file does not exist."
